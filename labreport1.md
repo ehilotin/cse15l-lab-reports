@@ -27,7 +27,7 @@ This is not an error.
 
 ![Image](lr1ls3.png)
 
-I got this output because I passed in a file name to the `ls` command. The current working directory in this example was the `lecture1` directory, but that wasn't pertinent since I provided a specific file name (`Hello.java` in this case). Since there is only one file in a file, using `ls` with a file name will just list the file that I typed in.
+I got this output because I passed in a file name to the `ls` command. The current working directory in this example was the `lecture1` directory, which ensured that the file name I passed in (`Hello.java`) was accessible. Since there is only one file in a file, using `ls` with a file name will just list the file that I typed in.
 This is not an error.
 
 # Using `cat`
