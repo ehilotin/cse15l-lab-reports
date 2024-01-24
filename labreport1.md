@@ -11,7 +11,7 @@ This is not an error.
 
 ![Image](lr1cd3.png)
 
-I got this output because I passed a file name to the `cd` command. When the command was run, the current working directory was the `home` directory. When running the `cd` command, I provided `Hello.java` as an argument to it. Since `Hello.java` is a file and not a directory, the terminal doesn’t know what directory to change to even though an argument was passed in.
+I got this output because I passed a file name to the `cd` command. When the command was run, the current working directory was the `lecture1` directory and thus `Hello.java` was accessible. When running the `cd` command, I provided `Hello.java` as an argument to it. Since `Hello.java` is a file and not a directory, the terminal doesn’t know what directory to change to even though an argument was passed in.
 This is an error. It displays a specific message saying that `Hello.java` isn’t a directory, and therefore it isn’t a valid argument for the `cd` command.
 
 # Using `ls`
@@ -27,7 +27,7 @@ This is not an error.
 
 ![Image](lr1ls3.png)
 
-I got this output because I passed in a file name to the `ls` command. Similar to the example above, the current working directory was the `home` directory, but that wasn't pertinent since I provided a specific file name (`Hello.java` in this case). Since there is only one file in a file, using `ls` with a file name will just list the file that I typed in.
+I got this output because I passed in a file name to the `ls` command. The current working directory in this example was the `lecture1` directory, but that wasn't pertinent since I provided a specific file name (`Hello.java` in this case). Since there is only one file in a file, using `ls` with a file name will just list the file that I typed in.
 This is not an error.
 
 # Using `cat`
