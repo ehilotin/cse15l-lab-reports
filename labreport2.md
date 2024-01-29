@@ -56,6 +56,7 @@ The only method that is called is the `handleRequest` method. The main method is
 The relevant (and only) argument passed into `handleRequest` is `URI url`, which is the URL of the server.
 
 There are six fields that are relevant specifically to the `ChatServer`'s purpose. Five of these fields are local to the `handleRequest` method, which means their values are deleted at the termination of the `handleRequest` method.
+
 Before this specific request:
 1. `String chatLog` had a value of `""`.
 2. `String[] parameter` had a value of `{}`.
@@ -78,6 +79,7 @@ The only method that is called is the `handleRequest` method.
 The relevant argument passed into `handleRequest` is `URI url`, which is the URL of the server.
 
 There are six fields that are relevant specifically to the `ChatServer`'s purpose. Five of these fields are local to the `handleRequest` method, which means their values are deleted at the termination of the `handleRequest` method.
+
 Before this specific request:
 1. `String chatLog` had a value of `"user1: Hello \n"`.
 2. `String[] parameter` had a value of `{}`.
