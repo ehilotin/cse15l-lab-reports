@@ -59,7 +59,7 @@ There are six fields that are relevant specifically to the `ChatServer`'s purpos
 
 Before this specific request:
 1. `String chatLog` had a value of `""`.
-2. `String[] parameter` had a value of `{}`.
+2. `String[] parameters` had a value of `{}`.
 3. `String msg` had a value of `""`.
 4. `String usr` had a value of `""`.
 5. `String[] message` had a value of `{}`.
@@ -67,7 +67,7 @@ Before this specific request:
 
 From this specific request:
 1. `String chatLog` now has a value of `"user1: Hello \n"`. This value changed from `""` as a result of the `handleRequest` method.
-2. `String[] parameter` has a value of `{"Hello", "user1"}` while the request is being carried out. The value gets erased at `handleRequest`'s termination, so the final value is the same as it was before this request (`{}`).
+2. `String[] parameters` has a value of `{"Hello", "user1"}` while the request is being carried out. The value gets erased at `handleRequest`'s termination, so the final value is the same as it was before this request (`{}`).
 3. `String msg` has a value of `"Hello"` while the request is being carried out. The value gets erased at `handleRequest`'s termination, so the final value is the same as it was before this request (`""`).
 4. `String usr` has a value of `"user1"` while the request is being carried out. The value gets erased at `handleRequest`'s termination, so the final value is the same as it was before this request (`""`).
 5. `String[] message` has a value of `{"s", "Hello"}` while the request is being carried out. The value gets erased at `handleRequest`'s termination, so the final value is the same as it was before this request (`{}`).
@@ -82,7 +82,7 @@ There are six fields that are relevant specifically to the `ChatServer`'s purpos
 
 Before this specific request:
 1. `String chatLog` had a value of `"user1: Hello \n"`.
-2. `String[] parameter` had a value of `{}`.
+2. `String[] parameters` had a value of `{}`.
 3. `String msg` had a value of `""`.
 4. `String usr` had a value of `""`.
 5. `String[] message` had a value of `{}`.
@@ -90,7 +90,7 @@ Before this specific request:
 
 From this specific request:
 1. `String chatLog` now has a value of `"user1: Hello \n user2: Hi \n"`. This value changed from `"user1: Hello \n"` as a result of the `handleRequest` method.
-2. `String[] parameter` has a value of `{"Hi", "user2"}` while the request is being carried out. The value gets erased at `handleRequest`'s termination, so the final value is the same as it was before this request (`{}`).
+2. `String[] parameters` has a value of `{"Hi", "user2"}` while the request is being carried out. The value gets erased at `handleRequest`'s termination, so the final value is the same as it was before this request (`{}`).
 3. `String msg` has a value of `"Hi"` while the request is being carried out. The value gets erased at `handleRequest`'s termination, so the final value is the same as it was before this request (`""`).
 4. `String usr` has a value of `"user2"` while the request is being carried out. The value gets erased at `handleRequest`'s termination, so the final value is the same as it was before this request (`""`).
 5. `String[] message` has a value of `{"s", "Hi"}` while the request is being carried out. The value gets erased at `handleRequest`'s termination, so the final value is the same as it was before this request (`{}`).
