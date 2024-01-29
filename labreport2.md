@@ -107,3 +107,4 @@ From this specific request:
 ![Image](lr2nopswd.png)
 
 # Part 3 - What I've Learned (Weeks 2 & 3)
+In lab during weeks 2 and 3, I've learned about the different parts of a URL and how the server handles them. Before this lab, I could sometimes guess what parts of a URL meant, but I never understood how the server knew what to do with them. Building simple programs like the `SearchEngine` from week 2 and the `ChatServer` from week 3 made URLs and servers a lot more understandable.
