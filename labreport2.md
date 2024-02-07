@@ -99,9 +99,11 @@ From this specific request:
 # Part 2 - `ssh`
 ## Private Path
 ![Image](lr2private.png)
+In this case, the absolute path would be `/Users/eleanorh/.ssh/id_rsa.pub`.
 
 ## Public Path
 ![Image](lr2public.png)
+In this case, the absolute path would be `/home/linux/ieng6/oce/69/ehilotin/.ssh/id_rsa.pub`.
 
 ## Using the Key
 ![Image](lr2nopswd.png)
