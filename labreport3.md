@@ -39,6 +39,7 @@
         assertEquals("a", mergedList.get(0));
     }
 ```
+![Image](lr3buggyoutput.png)
 ## Successful Input
 ```
     @Test
@@ -52,9 +53,7 @@
         assertEquals("b", mergedList.get(1));
     }
 ```
-## Symptoms
-(images)
-
+![Image](lr3successoutput.png)
 ## Changes
 ```
 // This is the buggy section before changes
@@ -70,6 +69,6 @@ while(index2 < list2.size()) {
       index2 += 1; // variable updated is now index2 instead of index1
     }
 ```
-This change fixes the issue because before, `index2` would always be less than `list2.size()` and therefore the loop would never end.
+This change fixes the issue because before, `index2` would always be less than `list2.size()`, and therefore the `while` loop would never end. With the changes, `index2` is now being updated properly, and the `while` loop now has a way to end.
 
 # Part 2 - Researching Commands
