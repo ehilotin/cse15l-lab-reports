@@ -72,3 +72,12 @@ while(index2 < list2.size()) {
 This change fixes the issue because before, `index2` would always be less than `list2.size()`, and therefore the `while` loop would never end. With the changes, `index2` is now being updated properly, and the `while` loop now has a way to end.
 
 # Part 2 - Researching Commands
+I chose to research the `grep` command.
+Sources Used: [Link](https://man7.org/linux/man-pages/man1/grep.1.html),
+## `-e`
+
+## `-f`
+
+## `-i`
+
+## `-v`
