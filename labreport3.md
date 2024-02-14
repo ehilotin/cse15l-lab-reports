@@ -73,7 +73,7 @@ This change fixes the issue because before, `index2` would always be less than `
 
 # Part 2 - Researching Commands
 I chose to research the `grep` command.
-For all examples, I only used this page: [Link](https://man7.org/linux/man-pages/man1/grep.1.html).
+For all examples, I only used [this](https://man7.org/linux/man-pages/man1/grep.1.html) page.
 ## `-e`
 **Example One**
 ```
