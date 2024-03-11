@@ -1,8 +1,14 @@
 # Part 1 - Debugging Scenario
 
 ## The Student's Original Post
+![Image](lr5step1.png)
+
+**student123:**
+> Hi. I’m not sure why this test is failing. It seems like maybe a loop is running too many times? But when I look at my code, I’m not sure what’s wrong with it.
 
 ## A TA's (Possible) Response
+**ta123:**
+> Hi there! You’re on the right track with your guess, but can you think of any tools we’ve used in class that can help you figure out where your program has unexpected behavior?
 
 ## The Student's Second Take
 
