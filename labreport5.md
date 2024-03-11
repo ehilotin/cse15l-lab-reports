@@ -8,7 +8,7 @@
 
 ## A TA's (Possible) Response
 **ta001:**
-> Hi there! It's hard to know exactly what's going on in your program with just this symptom. However, your test details seem to show that your program's current runtime is not what you expected. Can you think of any tools we’ve used in class that can help you figure out where your program has unexpected behavior?
+> Hi there! It's hard to know exactly what's going on in your program with just this symptom. Your test details seem to show that your program's current runtime is not what you expected, so your guess at the bug may be correct. Can you think of any tools we’ve used in class that can help you figure out where your program has unexpected behavior?
 
 ## The Student's Second Take
 
