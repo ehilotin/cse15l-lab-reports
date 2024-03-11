@@ -7,8 +7,8 @@
 > Hi. I’m not sure why this test is failing. It seems like maybe a loop is running too many times? But when I look at my code, I’m not sure what’s wrong with it.
 
 ## A TA's (Possible) Response
-**ta123:**
-> Hi there! You’re on the right track with your guess, but can you think of any tools we’ve used in class that can help you figure out where your program has unexpected behavior?
+**ta001:**
+> Hi there! It's hard to know exactly what's going on in your program with just this symptom. However, your test details seem to show that your program's current runtime is not what you expected. Can you think of any tools we’ve used in class that can help you figure out where your program has unexpected behavior?
 
 ## The Student's Second Take
 
