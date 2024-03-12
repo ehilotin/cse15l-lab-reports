@@ -112,13 +112,13 @@ public class ListExamplesTests {
 javac -g -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
-**Commands Run**
+**Commands Run to Trigger the Bug**
 
-To trigger the bug, I just ran the test.sh script using `bash test.sh`.
+To trigger the bug, I just ran the `test.sh` script using `bash test.sh`.
 
 **Edits Made**
 
-It's a relatively simple fix for something that might be a very confusing bug, since the code generally is properly written. On line 43 of `ListExamples.java`, `index1` should be changed to `index2`.
+It's a relatively simple fix for something that might be a very confusing bug, since the code is conceptually correct. On line 43 of `ListExamples.java`, `index1` should be changed to `index2`.
 
 # Part 2 - Reflection
 In the second half of the quarter, I was most interested by learning how to create bash scripts. I didn't know anything about scripting before this class, and now I think that scripting is a really efficient (and sometimes even fun) way to run programs. Learning about bash scripting really opened my eyes to a new world of possibilities in which I wouldn't have to type tons of commands just to achieve the same result as one script. Scripting will probably be my biggest takeaway from the second half of this class.
