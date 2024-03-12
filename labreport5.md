@@ -114,6 +114,8 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 **Commands Run**
 
+To trigger the bug, I just ran the test.sh script using `bash test.sh`.
+
 **Edits Made**
 
 # Part 2 - Reflection
