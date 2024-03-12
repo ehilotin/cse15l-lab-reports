@@ -28,8 +28,9 @@ labreport5/
   |- StringChecker.class
 ```
 **File Contents Before Edits**
+> Note: Used same repository as Lab 7 with slight modifications so JDB would run properly
 
-ListExamples.java
+*ListExamples.java*
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -81,7 +82,7 @@ class ListExamples {
 
 }
 ```
-ListExamplesTests.java
+*ListExamplesTests.java*
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -106,7 +107,7 @@ public class ListExamplesTests {
 
 }
 ```
-test.sh
+*test.sh*
 ```
 javac -g -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
