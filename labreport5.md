@@ -8,10 +8,14 @@
 
 ## A TA's (Possible) Response
 **ta001:**
-> Hi there! It's hard to know exactly what's going on in your program with just this symptom. Your test details seem to show that your program's current runtime is not what you expected, so your guess at the bug may be correct. Can you think of any tools we’ve used in class that can help you figure out where your program has unexpected behavior?
+> Hi there! Your test details seem to show that your program's current runtime is not what you expected, so you may be on the right track with your guess. Can you think of any tools we’ve used in class that can help you figure out where your program has unexpected behavior?
 
 ## The Student's Second Take
-
+**student123**
+>I can use JDB to see what's going wrong!
+![Image](lr5jdb1.png)
+![Image](lr5jdb2.png)
+>It seems that I've just been overlooking a typo in my code. I accidentally typed `index1` instead of `index2`. That created an infinite loop since `index2` would never get large enough to break the `while` loop. Thank you!
 ## All Things Setup
 **File & Directory Structure**
 ```
