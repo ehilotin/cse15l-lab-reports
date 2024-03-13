@@ -16,6 +16,7 @@
 ![Image](lr5jdb1.png)
 ![Image](lr5jdb2.png)
 >It seems that I've just been overlooking a typo in my code. I accidentally typed `index1` instead of `index2`. That created an infinite loop since `index2` would never get large enough to break the `while` loop. Thank you!
+
 ## All Things Setup
 **File & Directory Structure**
 ```
